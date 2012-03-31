@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- Mirrored from sqlsets.com/uses.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 31 Mar 2012 23:28:22 GMT -->
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>SQL Sets - Uses</title>
+<meta content="WjI3jgAEUZ5aOE8L83fEY+5W8U7+fx8AcA9+ObMVt6E=" name="verify-v1" />
+<meta content="sql testing, sql development, sql auditing, share data, sql server " name="keywords" />
+<meta content="Various ways that developers, QA, Testers and DBAs can use SQL Sets" name="description" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1></h1>
+		<p></p>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="home.html">home</a></li>
+			<li class="current_page_item"><a href="uses.html">uses</a></li>
+			<li><a href="features.html">features</a></li>
+			<li><a href="download.html">download</a></li>
+			<li><a href="buy.html">buy</a></li>
+			<li><a href="support.html">support</a></li>
+			<li><a href="about.html">about</a></li>
+		</ul>
+	</div>
+</div>
+<!-- end header -->
+<div id="headerbg">
+	<p class="text1">Portable Data Set Document Software</p>
+	<p class="text2">Capture. Organize. Share. Compare.</p>
+</div>
+<!-- start page -->
+<div id="page">
+	<!-- start content -->
+	<div id="content">
+		<!-- start latest-post -->
+		<div id="latest-post" class="post">
+			<h2><b>Examples of How People Are Using SQL Sets</b></h2>
+			<h3><b>What is your role?</b></h3>
+			<a href="#developers">I'm a Developer.</a><br/>
+			<a href="#testers">I'm a Tester/QA Analyst.</a><br/>
+			<a href="#analysts">I'm a Systems/Business Analysts.</a><br/>
+			<a href="#dbas">I'm a Database Administrator.</a><br/>
+			<a href="#auditors">I'm an Auditor.</a><br/>
+
+			
+			<div class="entry"><a name="developers"></a>
+				<h3><strong>I&#39;m a Developer</strong></h3>
+				<p><strong>You&#39;re unit testing coding changes that will result 
+				in updates to multiple tables in a database.</strong> Use SQL 
+				Sets to take a BEFORE snapshot of the tables and rows that will 
+				be affected by the change. Then, after changes have been 
+				implemented an tested, use SQL Sets to take an AFTER snapshot of 
+				that same slice of data. You now have two distinct files that 
+				provide a snapshot in time that can be compared and analyzed to 
+				facilitate testing.</p>
+				<p><strong>You&#39;re working with a team of Testers to validate a 
+				system. The Testing Team does not have direct access to the 
+				database, but would like to analyze some data.</strong> Use SQL 
+				Sets to extract the appropriate slice of data into a Portable 
+				Data Document. This file can then be handed off to the Testing 
+				Team where they can then perform their analysis. If issues are 
+				found, they can add Bookmarks and/or Annotations to the set and 
+				forward it back to the Development Team for further action.</p>
+				<p><strong>On a daily basis you work with and need to refer to a 
+				handful of Lookup/Reference tables in your application&#39;s 
+				database.</strong> Use SQL Sets to save a snapshot of these 
+				tables. Then, the contents of these tables are readily available 
+				without constantly re-running the same queries over and over. 
+				Bookmarking, in conjunction with the Table Navigator pane, make 
+				finding what you&#39;re looking for faster and easier.</p>
+			</div>
+			<div class="entry"><a name="testers"></a>
+				<h3><strong>I&#39;m a Tester/QA Analyst</strong></h3>
+				<p><strong>You&#39;re testing a new system and notice some 
+				issues with the way the data is being stored in the database.</strong> 
+				Use SQL Sets to extract the appropriate slice of data into a 
+				Portable Data Document. Then, use Bookmarks to focus in on the 
+				problematic data and Annotations to clarify the issues. Save the 
+				file and include it as an addendum to the bug report in your 
+				organization&#39;s Issue Tracking System or forward it on to the 
+				developer(s) you&#39;re working with so they can address it.</p>
+				<p><strong>You&#39;re testing a system and suspect there are 
+				data related issues. You do not have direct access to the 
+				database.</strong> Ask a member of the Development Team or the 
+				DBA to use SQL Sets to extract the data for you into a Portable 
+				Data Document. Use this document to perform your analysis and 
+				annotate as required. This document can then serve as a source 
+				document in a bug report or forwarded back to the developer(s) 
+				so they can address it.</p>
+			</div>
+			<div class="entry"><a name="analysts"></a>
+				<h3><strong>I&#39;m a Business/Systems Analyst</strong></h3>
+				<p><strong>You&#39;re working with the business to get sign-off on 
+				some Lookup/Reference data that will be displayed on an 
+				application&#39;s screens and/or on reports.</strong> 
+				Use SQL Sets to extract the appropriate tables into a 
+				Portable Data Document. Forward this onto the business person(s) 
+				you&#39;re working with. Have them use Annotations and Bookmarks to 
+				notate any issues they find. Use this document as the basis for 
+				any data clean-up that may be required.</p>
+				<p><strong>The application you&#39;re working with includes some 
+				fairly involved financial calculations. There is a discrepancy 
+				in one or more of the results being calculated.</strong> Use SQL 
+				Sets to capture the source and intermediate data that is being 
+				used in the calculations. Forward this document to the Financial 
+				and/or Actuarial Analysts who understand this data best. They 
+				can then perform an analysis on it and help make a determination 
+				as to where the issue lies.</p>
+			</div>
+			<div class="entry"><a name="dbas"></a>
+				<h3><strong>I&#39;m a Database Administrator (DBA)</strong></h3>
+				<p><strong>You&#39;re working with the Development Team to test 
+				a data conversion effort.</strong> Use SQL 
+				Sets to take a BEFORE snapshot of the tables and rows that will 
+				be affected by the change. Then, after the conversion has been 
+				run, use SQL Sets to take an AFTER snapshot of 
+				that same slice of data. You now have two distinct files that 
+				provide a snapshot in time that can be compared and analyzed to 
+				facilitate testing.</p>
+				<p><strong>You want to keep track of how the nature of certain 
+				data is changing over time. This might include the size of the 
+				data, row counts or just the content in general.</strong> Use 
+				SQL Sets to craft a collection of queries that will give you the 
+				results you&#39;re interested in. On a periodic basis, re-run these 
+				queries and save the file as Portable Data Document that 
+				provides a snapshot of that moment in time. You now have a 
+				collection of files that provide an historical perspective on 
+				the data of interest.</p>
+			</div>
+			<div class="entry"><a name="auditors"></a>
+				<h3><strong>I&#39;m an Auditor</strong></h3>
+				<p><strong>You&#39;re an internal auditor who has been tasked with 
+				making sure a line-of-business application is effectively and 
+				reliably performing its function.</strong> At the heart of most 
+				corporate systems is a relational database. Use SQL Sets to 
+				capture and analyze a slice of the database to verify data 
+				integrity and consistency. Through the use of Bookmarks and 
+				Annotations, this data can then be augmented to high-light any 
+				problems or areas of concern. This Portable Data Document can 
+				then become one of the formal source documents of the audit. </p>
+			</div>
+		</div>
+		<!-- end latest-post -->
+		<!-- Begin post -->
+		<div id="recent-posts">
+			<div class="rightpost">
+				<div class="entry">
+					<a href="download.html"><img src="http://sqlsets.com/images/14daytrial.gif" /></a>
+					<div class="text">
+					</div>
+				</div>
+			</div>
+			<div class="rightpost">
+				<div class="entry">
+					<a href="buy.html"><img src="http://sqlsets.com/images/buynow.gif" /></a>
+					<div class="text">
+					</div>
+				</div>
+			</div>
+			<div class="rightpost">
+				<div class="entry">
+					<a href="download.html"><img src="http://sqlsets.com/images/freereader.gif" /></a>
+					<br />
+					<div class="text">
+					</div>
+				</div>
+			</div>
+			<div class="sectiondiv">
+			</div>
+			<div class="rightpost">
+				<table border="0" class="mainlink" width="100%">
+					<tr>
+						<td><a href="demos.html"><img src="http://sqlsets.com/images/demos.gif" /></a></td>
+					</tr>
+					<tr>
+						<td><a href="screenshots.html">
+						<img src="http://sqlsets.com/images/screenshots.gif" /></a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="sectiondiv">
+			</div>
+			<div class="rightpost">
+				<table border="0" class="mainlink" width="100%">
+					<tr>
+						<td><a href="home.html">Home</a></td>
+					</tr>
+					<tr>
+						<td><a href="features.html">Features &amp; Benefits</a></td>
+					</tr>
+					<tr>
+						<td><a href="download.html">Download</a></td>
+					</tr>
+					<tr>
+						<td><a href="buy.html">Buy</a></td>
+					</tr>
+					<tr>
+						<td><a href="support.html">Support</a></td>
+					</tr>
+					<tr>
+						<td><a href="about.html">About</a></td>
+					</tr>
+				</table>
+			</div>
+			<!-- end recent-posts --></div>
+		<!-- end content -->
+		<!-- start sidebar -->
+		<div id="sidebar">
+			<ul>
+				<li>
+				<h2>Explore Your Data</h2>
+				<ul>
+					<li>Group by any column(s)</li>
+					<li>Sort by any column(s)</li>
+					<li>Filter on any column(s)</li>
+				</ul>
+				</li>
+				<li>
+				<h2>Enhance Your Data</h2>
+				<ul>
+					<li>Add bookmarks</li>
+					<li>Annotate tables</li>
+					<li>Annotate rows</li>
+				</ul>
+				</li>
+				<li>
+				<h2>Share Your Data</h2>
+				<ul>
+					<li>Share with your team</li>
+					<li>Share across teams</li>
+					<li>Share with business partners</li>
+				</ul>
+				</li>
+				<li>
+				<h2>Do More With Your Data</h2>
+				<ul>
+					<li>Archive selected subsets</li>
+					<li>Facilitate auditing</li>
+					<li>Before and after snapshots</li>
+				</ul>
+				</li>
+			</ul>
+			<div style="clear: both;">
+&nbsp;</div>
+		</div>
+		<!-- end sidebar --></div>
+	<!-- end page -->
+	<div id="footer">
+		<p id="legal">Template Design by Free CSS Templates</p>
+		<!--<p id="links"><a href="#">Privacy</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; <a href="#">Terms</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a> &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="This page validates as CSS"><abbr title="Cascading Style Sheets">CSS</abbr></a></p>-->
+	</div>
+	<!-- ganalytics -->
+	<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+	<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-238586-4");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+	<!-- end ganalytics --></div>
+
+</body>
+
+
+<!-- Mirrored from sqlsets.com/uses.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 31 Mar 2012 23:28:22 GMT -->
+</html>
